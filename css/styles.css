@@ -9,6 +9,12 @@ address{
     color:#0f0f0f;
 }
 
+h3 > a:hover, 
+h3 > a:active,
+h3 > a:focus {
+    text-decoration: none;
+}
+
 .navbar-inverse {
      background-color: #512DA8;
 }
@@ -24,26 +30,9 @@ address{
     border-bottom: 1px ridge;
     min-height:400px;
 }
-.card-header {
-    /*background-color: orange;
-    font-size: 1.4rem;
-    font-weight: 600;*/
-}
 
 .card-header:first-child {
     border-radius: 0;
-}
-
-h3 > a:hover, 
-h3 > a:active,
-h3 > a:focus {
-    text-decoration: none;
-}
-
-.btn-sm {
-    background-color: orange;
-    color:white;
-
 }
 
 .footer{
@@ -69,4 +58,3 @@ h3 > a:focus {
 .breadcrumb {
     background-color: white;
 }
-
