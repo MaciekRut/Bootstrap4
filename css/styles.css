@@ -70,7 +70,7 @@ h3 > a:focus {
     min-height: 300px;
 }
 
-#carouselButtons {
+#carousel-button {
     right:0px;
     position: absolute;
     bottom: 0px;
